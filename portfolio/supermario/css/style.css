@@ -1,0 +1,862 @@
+@font-face {
+    font-family: 'PretendardVariable.woff2';
+    src: url(../font/PretendardVariable.woff2);
+}
+
+@font-face {
+    font-family:'neodgm' ;
+    src: url(../font/neodgm.woff);
+}
+
+
+
+
+
+
+
+.header{
+    width: 1900px;
+    height: 750px;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+.mario{
+    position: absolute;
+    top: 122px;
+left: 0px;
+
+    animation-name: mario1;
+
+animation-duration: 6s;
+animation-timing-function: linear;
+animation-direction: normal;
+animation-iteration-count: infinite;
+
+}
+
+
+
+.deco2{
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    width: 280px;
+    height: 70px;
+}
+
+.deco2 img{
+    width: 280px;
+    height: 70px;
+}
+
+
+.deco3{position: absolute;
+top: 450px;
+left: 1000px;}
+
+.deco3 img{
+height: 70px;
+}
+.coin{
+    position: absolute;
+    top: 100px ;
+    left: 70px;
+    width: 70px;
+    height: 70px;
+}
+
+.coin img{
+    width: 70px;
+    height: 70px;
+}
+
+.star{
+    position:absolute;
+    top: 370px;
+    left: 1000px;
+}
+
+.coin2{
+    position: absolute;
+    top: 370px ;
+    left: 1295px;
+}
+
+.coin2 img{
+    width: 70px;
+    height: 70px;
+}
+@keyframes mario1{
+    0% {transform:translateX(0)}
+    100% {transform:translateX(1900px)}
+}
+.kino img{
+    width: 190px;
+    height: 306px;
+}
+
+.kino{
+    width: 190px;
+    height: 306px;
+    position: absolute;
+    top: 27%;
+    right: 10%;
+    transform: translate(-27%,-10%);
+}
+
+.deco{
+    position: absolute;
+    top: 458px;
+    right: 270px;
+    z-index: 9;
+}
+
+.cloud1{
+width: 100px;
+height: 80px;
+    position:absolute;
+    top: 50px;
+    left: 390px;
+    animation-name: cloudone;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.cloud1 img{
+
+    width: 90px;
+    height: 70px;
+}
+@keyframes cloudone{
+
+    0%{
+        transform: none;
+    }
+
+   
+
+    50%{
+        transform: scale(1.9);
+    }
+
+    100%{
+        transform: scale(1.2);
+
+    }
+}
+
+.cloud2{
+    width: 100px;
+    height: 80px;
+        position:absolute;
+        top: 60px;
+        right: 400px;
+        animation-name: cloudtwo;
+        animation-duration: 5s;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes cloudtwo{
+    
+        0%{
+            transform: none;
+        }
+    
+        50%{
+            transform: scale(2);
+        }
+    
+        100%{
+            transform: scale(1.3);
+    
+        }
+    }
+    
+.intro{
+    width: 1900px;
+    height: 820px;
+    background-color: rgba(148, 219, 255, 0.842);
+    position: relative;
+}
+
+.yosi{
+position: absolute;
+top: 890px;
+right: 0;
+}
+
+.yosi img{
+    width:230px;
+    height: 300px;
+}
+.yositxt{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 890px;
+    right: 80px;
+    
+}
+
+.cli{
+    position: absolute;
+    top: 1041px;
+    right: 430px;
+    color: rgba(0, 128, 0, 0.542);
+    z-index: 99;
+    font-size: 14px;
+    font-family:'neodgm' ;
+    animation-name: cli;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+
+}
+
+
+@keyframes cli{
+    
+
+
+    0%{
+        transform: scale(1.6);
+    }
+
+    100%{
+        transform: scale(1.3);
+
+    }
+}
+.bt{
+    position: absolute;
+    top: 125px;
+    right: 340px;
+    font-family:'neodgm' ;
+    width: 70px;
+    height: 30px;
+    color: #585858;
+    font-size: 16px;
+
+}
+
+.bt:hover{
+    border: 2px solid rgba(0, 128, 0, 0.542);
+    border-radius: 10%;
+    background-color: white;
+}
+.bt2:hover{
+    border: 2px solid rgba(252, 71, 71, 0.542);
+    border-radius: 10%;
+    background-color: white;
+}
+
+
+.bt2{
+    position: absolute;
+    top: 125px;
+    right: 200px;
+    font-family:'neodgm' ;
+    width: 100px;
+    height: 30px;
+    color: #585858;
+    font-size: 16px;
+
+}
+
+
+.rui{
+    display: none;
+    width: 490px;
+    height: 630px;
+    position: absolute;
+    top: 1000px;
+    left: 0;
+  
+    }
+
+    .ruitxt{
+        width: 386px;
+        height: 250px;
+        position: absolute;
+        top:0px;
+        left: 207px;
+    }
+
+
+   
+      .tabs .tab-header {
+        float:left;
+        width:180px;
+        height:100%;
+        border-right:1px solid #ccc;
+        padding:50px 0px;
+      }
+      .tabs .tab-header > div {
+        height:40px;
+        line-height:60px;
+        font-size:16px;
+        font-weight:500;
+        color:#666565;
+        font-family:'neodgm' ;
+        cursor:pointer;
+        padding-left:10px;
+        
+      }
+      .tabs .tab-header > div:hover,
+      .tabs .tab-header > div.active {
+        color:#f14c0aec;
+      }
+      .tabs .tab-header div i {
+        display:inline-block;
+        margin-left:5px;
+        margin-right:5px;
+      }
+      .tabs .tab-content {
+        position:relative;
+        height:100%;
+        overflow:hidden;
+      }
+   
+      .tabs .tab-content > div {
+        position:absolute;
+        text-align:center;
+        padding:40px 20px;
+        top:-200%;
+        transition:all 500ms ease-in-out;
+      }
+      .tabs .tab-content > div.active {
+        position: absolute;
+        top:0px;
+        text-align: center;
+        left: 0px;
+      }
+      
+      .tabs .tab-indicator {
+        position:absolute;
+        width:4px;
+        height:50px;
+        background:#ec6958d7;
+        left:198px;
+        top:80px;
+        transition:all 500ms ease-in-out;
+      }
+.protab{width: 1900px;
+    height: 700px;
+background-color: rgba(148, 219, 255, 0.842);
+position: relative;}
+      
+.teduri{
+ 
+    position: absolute;
+    top: 50px;
+    left: 245px;
+}
+.tabs {
+    position:absolute;
+    top:148px;
+    left:345px;
+    transform:translate(-50%,-50%);
+    width:1160px;
+    height:310px;
+    padding:20px 20px;
+    background:#f5f5f5;
+   
+    overflow:hidden;
+  }
+
+  .tabs .tab-content > div.active p {
+ font-size: 20px;
+ font-family: 'PretendardVariable.woff2';
+ font-weight: 400;
+
+line-height: 45px;
+width:700px;
+  }
+
+  .tabs .tab-content > div.active img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+top: 5px;
+left: 670px;
+     }
+
+     .movie{
+        width: 1900px;
+        height: 600px;
+       background-color:  rgba(148, 219, 255, 0.842);
+        position: relative;
+     }
+
+     .kino2{
+        width: 240px;
+        height: 270px;
+        position: absolute;
+        top: 2100px;
+        left: 550px;
+        
+
+  
+     }
+
+     .kino2 img{
+        width: 240px;
+        height: 270px;
+     }
+
+
+ .game{
+    width: 1900px;
+    height: 600px;
+    position: relative;
+ }
+
+ .gametxt{
+    position: absolute;
+    top: 3060px;
+   left: 900px;
+    transform: translate(-50%,50%);
+    z-index: 99;
+ }
+
+ .gamedeco{
+    position: absolute;
+    top: 3145px;
+    left:660px;
+    z-index: 99;
+    width: 500px;
+    height: 120px;
+    
+
+ 
+ }
+
+
+.gamedeco img{
+    width: 480px;
+    height: 100px;
+}
+
+
+.gametotal{
+    width: 1900px;
+    height: 600px;
+    display: flex;
+}
+
+.gameimg1{
+    width: 900px;
+    height: 600px;
+    position: relative;
+}
+.gamemario{
+position: absolute;
+top: 2950px;
+left: 10px;
+
+
+animation-name: gamemario;
+
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+
+
+
+@keyframes gamemario{
+    100% {transform:translateX(10)}
+    0% {transform:translateY(-100px)}}
+
+
+
+    .gameimg2{
+        width: 1000px;
+        height: 600px;
+        position: relative;
+    }
+.mariocart{
+    width: 180px;
+    height: 75px;
+    position: absolute;
+    top: 3280px;
+    left: 1015px;
+}
+
+.marioparty{
+    width: 180px;
+    height: 75px;
+    position: absolute;
+    top: 3200px;
+    left: 1200px;
+}
+
+
+.mariogolf{
+    width: 180px;
+    height: 75px;
+    position: absolute;
+    top: 3120px;
+    left: 1385px;
+}
+
+.mariotennis{
+    width: 180px;
+    height: 75px;
+    position: absolute;
+    top: 3200px;
+    left: 1570px;
+}
+
+
+.coin3{
+    width:70px;
+    height: 70px;
+    position: absolute;
+    top: 3290px;
+    left: 1770px;
+}
+
+.star3{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 3020px;
+    left: 1430px;
+}
+
+.toy{
+    width: 1900px;
+    height: 460px;
+background-color:  rgba(148, 219, 255, 0.842);
+text-align: center;
+position: relative;
+padding-top: 40px;
+}
+.toywrap{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    position: absolute;
+    top: 5px;
+    left: 380px;
+ 
+
+
+}
+.toy1 img{
+    width: 270px;
+    height: 380px;
+    border-radius: 50%;
+}
+
+.toy1{
+    width: 270px;
+    height: 380px;
+    margin-right: 170px;
+}
+.toy2 img{
+    width: 270px;
+    height: 380px;
+    border-radius: 50%;
+}
+
+
+.toy2{
+    width: 270px ;
+    height: 380px;
+    margin-right: 170px;
+}
+
+.toy3 img{
+    width: 270px;
+    height: 380px;
+    border-radius: 50%;
+}
+
+.toy3{
+    width: 270px ;
+    height: 380px;
+}
+
+.toy1txt{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fdfdfdd7;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'PretendardVariable.woff2';
+ 
+
+   display: none;
+   position: absolute;
+   top: 3600px;
+   left: 400px;
+   color:#2a8726;
+}
+
+.toy1txt p{
+    font-weight: 900;
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+.toy1one{
+    position: absolute;
+    top: 3600px;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    background-color: #2a8726;
+    border-radius: 50%;
+
+    animation-name:toy1one;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.toy1one p,.toy2two p,.toy3thr p{
+    font-family: 'PretendardVariable.woff2';
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+   
+}
+
+@keyframes toy1one{
+
+    0%{
+        transform: none;
+    }
+
+   
+
+
+
+    100%{
+        transform: scale(1.2);
+
+    }}
+
+.toy2two{
+    position: absolute;
+    top: 3800px;
+    left: 1000px;
+    width: 50px;
+    height: 50px;
+    background-color: #f61316;
+    border-radius: 50%;
+
+    animation-name:toy2two;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes toy2two{
+
+    0%{
+        transform: none;
+    }
+
+   
+
+
+
+    100%{
+        transform: scale(1.2);
+
+    }}
+.toy1one{
+    text-align: center;
+    font-family: 'PretendardVariable.woff2';
+    color: white;
+  
+
+}
+
+
+
+.toy2two{
+    text-align: center;
+    font-family: 'PretendardVariable.woff2';
+    color: white;
+
+}
+
+.toy2txt{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fdfdfdd7;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'PretendardVariable.woff2';
+  
+   display: none;
+   position: absolute;
+   top: 3800px;
+   left: 990px;
+   color: #f61316;
+   z-index: 50;
+}
+
+.toy2txt p{
+    font-weight: 900;
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+.toy3thr{
+    position: absolute;
+    top: 3670px;
+    left: 1480px;
+    width: 50px;
+    height: 50px;
+    background-color: #53be3b;
+    border-radius: 50%;
+
+    animation-name:toy3thr;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes toy3thr{
+
+    0%{
+        transform: none;
+    }
+
+   
+
+
+
+    100%{
+        transform: scale(1.2);
+
+    }}
+
+    .toy3thr{
+        text-align: center;
+        font-family: 'PretendardVariable.woff2';
+        color: white;
+    
+    }
+
+    .toy3txt{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #fdfdfdd7;
+        font-size: 14px;
+        text-align: center;
+        font-family: 'PretendardVariable.woff2';
+      
+       display: none;
+       position: absolute;
+       top: 3670px;
+       left: 1470px;
+       color: #53be3b;
+       z-index: 55;
+    }
+    
+    .toy3txt p{
+        font-weight: 900;
+        padding-top: 15px;
+        line-height: 20px;
+    }
+    
+
+.footer{
+    width: 1900px;
+    height: 750px;
+    background-color: rgba(148, 219, 255, 0.842);
+    position: relative;
+}
+
+.footerimg{
+    width: 990px;
+height:530px ;
+margin-left: auto;
+margin-right: auto;  
+padding-top: 150px; 
+z-index: 99;
+    
+}
+
+.footerimg img{
+    border-radius: 40px;
+}
+
+.fffoo{
+    position: absolute;
+    top: 20px;
+    left: 380px;
+}
+
+.control{
+    position: fixed;
+    top: 280px;
+    left: 10px;
+    z-index: 99;
+    font-family:'neodgm' ;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+   
+    
+    
+  
+}
+
+.control li{
+    width: 120px;
+    height: 30px;
+    background-color: #53be3bc8;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+html{
+    scroll-behavior:smooth;
+  }

@@ -1,0 +1,226 @@
+%!Adobe-FontList 1.23
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Goryeong-Strawberry
+FamilyName:Goryeong Strawberry
+StyleName:Regular
+FullName:Goryeong Strawberry
+MenuName:고령딸기체
+StyleBits:0
+FamilyNameNative:고령딸기체
+StyleNameNative:Regular
+FullNameNative:고령딸기체
+WritingScript:Korean
+OutlineFileName:D:\ㄱ 포트폴리오\태현_포폴♥\dongsu_post_3\Font\GoryeongStrawberry.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2130512
+FileModTime:1683868270
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Goryeong Strawberry
+NameArray:0,Mac,4,Goryeong Strawberry
+NameArray:3,Mac,4,고령딸기체
+NameArray:3,Mac,18,고령딸기체
+NameArray:0,Win,1,Goryeong Strawberry
+NameArray:0,Win,16,Goryeong Strawberry
+NameArray:3,Win,1,고령딸기체
+NameArray:3,Win,16,고령딸기체
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\ㄱ 포트폴리오\태현_포폴♥\dongsu_post_3\Font\PretendardVariable.woff2
+FileModTime:1683279148
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PyeongChang-Bold
+FamilyName:PyeongChang
+StyleName:Bold
+FullName:PyeongChang Bold
+MenuName:평창체 Bold
+StyleBits:0
+FamilyNameNative:평창체
+StyleNameNative:Bold
+FullNameNative:평창체 Bold
+WritingScript:Korean
+OutlineFileName:D:\ㄱ 포트폴리오\태현_포폴♥\dongsu_post_3\Font\PyeongChang-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:4520232
+FileModTime:1647956112
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,평창체 Bold
+NameArray:0,Mac,4,PyeongChang Bold
+NameArray:3,Mac,18,평창체 Bold
+NameArray:0,Win,1,PyeongChang Bold
+NameArray:0,Win,16,PyeongChang
+NameArray:3,Win,1,평창체 Bold
+NameArray:3,Win,16,평창체
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PyeongChang-Regular
+FamilyName:PyeongChang
+StyleName:Regular
+FullName:PyeongChang Regular
+MenuName:평창체 Regular
+StyleBits:0
+FamilyNameNative:평창체
+StyleNameNative:Regular
+FullNameNative:평창체 Regular
+WritingScript:Korean
+OutlineFileName:D:\ㄱ 포트폴리오\태현_포폴♥\dongsu_post_3\Font\PyeongChang-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:4573996
+FileModTime:1647956112
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,평창체 Regular
+NameArray:0,Mac,4,PyeongChang
+NameArray:3,Mac,18,평창체 Regular
+NameArray:0,Win,1,PyeongChang Regular
+NameArray:0,Win,16,PyeongChang
+NameArray:3,Win,1,평창체 Regular
+NameArray:3,Win,16,평창체
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PyeongChangPeace-Bold
+FamilyName:PyeongChang Peace
+StyleName:Bold
+FullName:PyeongChang Peace Bold
+MenuName:평창 평화체 Bold
+StyleBits:0
+FamilyNameNative:평창 평화체
+StyleNameNative:Bold
+FullNameNative:평창 평화체 Bold
+WritingScript:Korean
+OutlineFileName:D:\ㄱ 포트폴리오\태현_포폴♥\dongsu_post_3\Font\PyeongChangPeace-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1360696
+FileModTime:1647956112
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,평창 평화체 Bold
+NameArray:0,Mac,4,PyeongChang Peace Bold
+NameArray:3,Mac,18,평창 평화체 Bold
+NameArray:0,Win,1,PyeongChang Peace Bold
+NameArray:0,Win,16,PyeongChang Peace
+NameArray:3,Win,1,평창 평화체 Bold
+NameArray:3,Win,16,평창 평화체
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PyeongChangPeace-Light
+FamilyName:PyeongChang Peace
+StyleName:Light
+FullName:PyeongChang Peace Light
+MenuName:평창 평화체 Light
+StyleBits:0
+FamilyNameNative:평창 평화체
+StyleNameNative:Light
+FullNameNative:평창 평화체 Light
+WritingScript:Korean
+OutlineFileName:D:\ㄱ 포트폴리오\태현_포폴♥\dongsu_post_3\Font\PyeongChangPeace-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1313876
+FileModTime:1647956112
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,평창 평화체 Light
+NameArray:0,Mac,4,PyeongChang Peace Light
+NameArray:3,Mac,18,평창 평화체 Light
+NameArray:0,Win,1,PyeongChang Peace Light
+NameArray:0,Win,16,PyeongChang Peace
+NameArray:3,Win,1,평창 평화체 Light
+NameArray:3,Win,16,평창 평화체
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:RIDIBatang
+FamilyName:RIDIBatang
+StyleName:Regular
+FullName:RIDIBatang
+MenuName:리디바탕
+StyleBits:0
+FamilyNameNative:리디바탕
+StyleNameNative:Regular
+FullNameNative:리디바탕
+WritingScript:Korean
+OutlineFileName:D:\ㄱ 포트폴리오\태현_포폴♥\dongsu_post_3\Font\RIDIBatang.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1453448
+FileModTime:1683717978
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,RIDIBatang
+NameArray:3,Mac,4,리디바탕
+NameArray:0,Win,1,RIDIBatang
+NameArray:0,Win,16,RIDIBatang
+NameArray:3,Win,1,리디바탕
+NameArray:3,Win,16,리디바탕
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:YANGJIN
+FamilyName:YANGJIN
+StyleName:Regular
+FullName:YANGJIN
+MenuName:양진체 
+StyleBits:0
+FamilyNameNative:양진체 
+StyleNameNative:Regular
+FullNameNative:양진체 
+WritingScript:Korean
+OutlineFileName:D:\ㄱ 포트폴리오\태현_포폴♥\dongsu_post_3\Font\yangjin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:1698244
+FileModTime:1683873046
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,YANGJIN
+NameArray:0,Mac,4,YANGJIN
+NameArray:0,Win,1,YANGJIN
+NameArray:0,Win,16,YANGJIN
+NameArray:3,Win,1,양진체 
+%EndFont
+

@@ -1,0 +1,565 @@
+@font-face {
+    font-family: 'PretendardVariable';
+    src: url(../font/PretendardVariable.woff2);
+}
+.pc{
+    display: none;
+}
+
+header{
+   background-color: white;
+   height: 135px; 
+}
+
+h1{
+    text-align: center;
+  
+}
+h1 .mo{
+    width: 120px;  
+
+}
+
+
+.btnNav{
+    width: 63px;
+    height: 45px;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.btnNav img{
+    width: 25px;
+}
+
+.btnM{
+    width: 63px;
+    height: 45px;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.btnM img{width:25px;}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    display: none;
+}
+
+.nWrap{
+    display: flex;
+    
+}
+.nWrap .btnClose{
+    width: 63px;
+    height: 65px;
+    background-color: #fff;
+}
+.nWrap .btnClose img{
+    width: 25px;
+}
+.nWrap form{
+    display: flex;
+}
+.nWrap form input{
+    width: calc(100vw - 63px - 63px);
+/* 
+calc() css함수 
+직접 계산하지 못할 수치를 브라우저가 알아서
+계산하게끔 하는 css 함수,
+보통 상대값(vh, vw, %)에서 절대값(px)을 
+연산하는 용도로 사용됩니다.
+
+vw란? 
+viewport width
+웹을 보고 있는 브라우저 / 디바이스의 너비 
+100vw = 브라우저의 너비 100%
+
+*/
+    border: 0;
+    background-color: beige;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 15px;
+    color: #fff;
+}
+.nWrap form .btnSrch{
+    width: 63px;
+    height: 65px;
+    background-color: beige;
+}
+.nWrap form .btnSrch img{
+    width: 25px;
+}
+
+
+.gnb li{
+    padding-left: 20px;
+    line-height: 40px;
+    color: #31362f;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+   
+}
+/* .gnb .red{ 
+    background-color: #e41e25;
+}
+*/
+.pcSrch{
+    display: none;
+}
+
+.banner .tab{
+    display: none;
+}
+
+.banner .mo{
+    width: 100%;
+}
+
+section{
+    display: flex;
+/* 
+display:flex를 적용시키면 한 횡에 모든 요소들을
+다 정렬하려는 속성이 생긴다.
+그래서 이를 방지하고, 부모사이즈를 초과하는
+자식들을 아래로 자연스럽게 흘러내리게 만들려면
+flex-wrap:wrap을 줘야한다! 
+*/
+    flex-wrap:wrap;
+}
+section .item{
+    width: 50%;
+    position: relative;
+}
+section .item img{
+    width: 100%;
+    vertical-align: top;
+/* 
+vertical-align 텍스트와 이미지를 배열할때
+가로축 정렬 맞추는 속성!
+기본값 : base-line 인데, 이게 적용되어있을때는
+이미지 아래에 미묘하게 뜨는 공간이 생겨납니다.
+그래서 이것을 방지하기 위해서는
+img에게 vertical-align:top을 주거나
+display:block을 줍니다
+*/
+}
+
+.item:hover .over{
+    opacity: 1;
+}
+
+section .item .over{
+    display: none;
+}
+.brush{
+    display: none;
+}
+.popup{
+    display: none;
+}
+.bestse{
+   
+
+
+   background-image: linear-gradient(to bottom right, #f2acce, #e4cfe3, #f9e4d1);
+    width: 100%;
+    height:920px;
+    position: relative;
+}
+
+.bs{
+    display: none;
+}
+
+
+
+.spell{
+    display: none;
+}
+
+.collbo .mo2{
+    display: none;
+}
+
+.notice{
+
+    width: 100%;
+    height: 765px;
+    background-image: linear-gradient(#f0eae3, #f3d5e3, #f7e4f6);
+}
+
+.noticetxt .txt2{
+    color: #202020;
+    background-color: #91919125;
+}
+
+
+.noticetxt{
+    width:100%;
+    height: 360px;
+    border:  3px dotted white;
+    border-radius: 20px;
+    font-family:'PretendardVariable' ;
+    font-size: 14px;
+    line-height: 40px;
+
+
+}
+
+
+.noticetxt li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+       height: 40px;
+       margin-bottom: 10px;
+       background-color: rgb(255, 255, 255);
+       border-radius: 20px;
+       opacity: 0.7;
+       padding-left: 15px;
+      
+   
+   }
+
+   
+
+
+.rvall,.rvall2,.rvall3{
+    display: flex;
+    background-color: rgb(255, 255, 255); 
+    opacity: 0.7;
+    border-radius: 40px;
+    margin-bottom: 20px;
+  
+   
+}
+.rvall{
+    margin-top: 10px;
+}
+
+.rvimg1,.rvimg2,.rvimg3{
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+.rvimg1 img,.rvimg2 img,.rvimg3 img{
+   border-radius: 50px;
+   margin-top: 5px;
+}
+   .rvtxt1,.rvtxt2,.rvtxt3{
+    padding-top: 5px;
+    font-family: 'PretendardVariable';
+    font-size: 14px;
+    line-height: 20px;
+   }
+
+   .act{
+    width: 100%;
+    height: 340px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #b1b3b1;
+    border-top: 1px solid #b1b3b1;
+   }
+
+   
+.acttxt p{
+    font-family:'PretendardVariable' ;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    color: #c0c0c0;
+}
+
+.acttxt h2{
+    font-family:'PretendardVariable' ;
+    font-size: 28px;
+    text-align: center;
+    color: #c47397;
+}
+.acttxt2 ul{
+    display: flex;
+    justify-content: center;
+   
+ 
+}
+.acttxt2 .act1 li{
+    color: rgba(109, 109, 109, 0.342);
+    font-family:'PretendardVariable' ;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.acttxt2 .act2 li{
+    color: rgba(73, 73, 73, 0.582);
+    font-family:'PretendardVariable' ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.acttxt2 .act3 li{
+    color: rgba(49, 49, 49, 0.753);
+    font-family:'PretendardVariable' ;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.acttxt2 .act4 li{
+    color: rgba(29, 29, 29, 0.87);
+    font-family:'PretendardVariable' ;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.contact{
+
+
+    display: flex;
+            flex-wrap: wrap;
+}
+
+.box{
+    width: 50%;
+    height: 200px;
+    background: linear-gradient(90deg, #d1dee6
+    0%,  #e3dee5 100%);
+    border: 1px solid  #ffffff;
+    box-sizing: border-box;
+}
+
+.box p{
+    font-family:'PretendardVariable' ;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 55px;
+    color: white;
+    font-weight: 500;
+
+
+}
+.box p{
+    text-align: center;
+}
+.box p:after{
+    content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 1px solid #ffffff;
+    margin: 20px auto;
+  
+  }
+.box span{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    font-family:'PretendardVariable' ;
+    display: inline-block;
+    width: 100%; height: 100px;
+    text-align: center;
+}
+
+.site{
+  
+padding-top: 5px;
+        display: flex;
+                flex-wrap: wrap;
+                border-bottom: 1px solid #c0c2bf;
+}
+footer{
+    width: 100%;
+    font-family:'PretendardVariable' ;
+    font-size: 14px;
+   color: #949494;
+}
+
+.menu{
+display: flex; 
+justify-content: center;
+text-align: center;
+  
+}
+.first{
+    flex: 1;
+}
+
+.menu{
+    flex: 2;
+}
+
+.sns{
+    flex: 1;
+}
+.sns img{
+    width:30px;
+    height: 30px;
+}
+.sns ul{
+    display: flex;
+    justify-content: center;
+}
+
+.sns ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.first .pc{
+    display: none;
+}
+
+.first .mo{
+    width: 100px;
+    height: 25px;
+}
+
+.copyright{
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* 제품 */
+
+.product{
+
+
+    display: flex;
+            flex-wrap: wrap;
+}
+
+.cos{
+    width: 50%;
+    height: 380px;
+    background: linear-gradient(-150deg, #e2e0eb
+    0%, #ebe5da 45%, #f0e3ea 100%);
+
+    border-right: 1px solid  #ffffff;
+ 
+    box-sizing: border-box;
+    text-align: center;
+}
+.cos img{
+    width:286px;
+    height: 230px;
+margin-top: 30px;
+
+}
+.cos p{
+    font-family:'PretendardVariable' ;
+    font-size: 16px;
+    text-align: center;
+   
+    color: rgb(118, 109, 109);
+    font-weight: 600;
+
+
+}
+.cos p{
+    text-align: center;
+}
+.cos p:after{
+    content: "";
+    display: block;
+    width: 100px;
+    border-bottom: 1px solid #ffffff;
+    margin: 20px auto;
+  
+  }
+.cos span{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 16px;
+    font-family:'PretendardVariable' ;
+    display: inline-block;
+    width: 100%; height: 100px;
+    text-align: center;
+}
+
+@media all and (min-width:768px){
+
+/* 제품 */
+    .product{
+        background: linear-gradient(-150deg, #e2e0eb
+        0%, #ebe5da 45%, #f0e3ea 100%);
+        text-align: center;
+      }
+    
+      .cos span{
+    
+        font-size: 18px;
+        font-family:'PretendardVariable' ;
+        display: inline-block;
+        width: 100%; height: 100px;
+        text-align: center;
+    
+    }
+
+
+
+    .banner .mo{
+        display: none;
+    }
+
+    .banner .tab{
+        display: block;
+        width: 100%;
+    }
+
+    section .item{
+        width: 33.33%;
+    }
+
+   .collbo .mo{
+    width: 432px;
+    height: 88px;
+
+
+   }
+
+   .collatotal{
+    display: flex;
+    justify-content: center;
+   }
+
+   .collatotal2{
+    display: flex;
+   justify-content: center;
+}
+
+.bestse{
+    height: 550px;
+}
+
+.collbo .mo2{
+    display: block;
+    width: 100%;
+}
+.collbo .mo{
+    display: none;
+}
+
+.act{
+    width: 100%;
+}
+
+.box{
+  background: linear-gradient(90deg, #d1dee6
+    0%,  #e3dee5 100%);
+  }
+
+  .box span{
+
+    font-size: 18px;
+    font-family:'PretendardVariable' ;
+    display: inline-block;
+    width: 100%; height: 100px;
+    text-align: center;
+
+}
+}/*768px*/

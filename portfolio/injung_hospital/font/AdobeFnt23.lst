@@ -1,0 +1,245 @@
+%!Adobe-FontList 1.23
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GmarketSansTTFBold
+FamilyName:Gmarket Sans TTF
+StyleName:Bold
+FullName:Gmarket Sans TTF Bold
+MenuName:G마켓 산스 TTF Bold
+StyleBits:0
+FamilyNameNative:G마켓 산스 TTF
+StyleNameNative:Bold
+FullNameNative:G마켓 산스 TTF Bold
+WritingScript:Korean
+OutlineFileName:C:\Users\kk98i\Desktop\INJUNG hospital\Font\GmarketSansTTFBold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:2511976
+FileModTime:1701605124
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gmarket Sans TTF Bold
+NameArray:3,Mac,4,G마켓 산스 TTF Bold
+NameArray:0,Win,1,Gmarket Sans TTF Bold
+NameArray:0,Win,16,Gmarket Sans TTF
+NameArray:3,Win,1,G마켓 산스 TTF Bold
+NameArray:3,Win,16,G마켓 산스 TTF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GmarketSansTTFLight
+FamilyName:Gmarket Sans TTF
+StyleName:Light
+FullName:Gmarket Sans TTF Light
+MenuName:G마켓 산스 TTF Light
+StyleBits:0
+FamilyNameNative:G마켓 산스 TTF
+StyleNameNative:Light
+FullNameNative:G마켓 산스 TTF Light
+WritingScript:Korean
+OutlineFileName:C:\Users\kk98i\Desktop\INJUNG hospital\Font\GmarketSansTTFLight.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:2413604
+FileModTime:1701605123
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gmarket Sans TTF Light
+NameArray:3,Mac,4,G마켓 산스 TTF Light
+NameArray:0,Win,1,Gmarket Sans TTF Light
+NameArray:0,Win,16,Gmarket Sans TTF
+NameArray:3,Win,1,G마켓 산스 TTF Light
+NameArray:3,Win,16,G마켓 산스 TTF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GmarketSansTTFMedium
+FamilyName:Gmarket Sans TTF
+StyleName:Medium
+FullName:Gmarket Sans TTF Medium
+MenuName:G마켓 산스 TTF Medium
+StyleBits:0
+FamilyNameNative:G마켓 산스 TTF
+StyleNameNative:Medium
+FullNameNative:G마켓 산스 TTF Medium
+WritingScript:Korean
+OutlineFileName:C:\Users\kk98i\Desktop\INJUNG hospital\Font\GmarketSansTTFMedium.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:2417020
+FileModTime:1701605124
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gmarket Sans TTF Medium
+NameArray:3,Mac,4,G마켓 산스 TTF Medium
+NameArray:0,Win,1,Gmarket Sans TTF Medium
+NameArray:0,Win,16,Gmarket Sans TTF
+NameArray:3,Win,1,G마켓 산스 TTF Medium
+NameArray:3,Win,16,G마켓 산스 TTF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BookkGothic-Bd
+FamilyName:Bookk Gothic
+StyleName:Bold
+FullName:Bookk Gothic Bold
+MenuName:부크크 고딕 Bold
+StyleBits:2
+FamilyNameNative:부크크 고딕
+StyleNameNative:Bold
+FullNameNative:부크크 고딕 Bold
+WritingScript:Korean
+OutlineFileName:C:\Users\kk98i\Desktop\INJUNG hospital\Font\book_bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:2341248
+FileModTime:1701603408
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Bookk Gothic Bold
+NameArray:3,Mac,4,부크크 고딕 Bold
+NameArray:0,Win,1,Bookk Gothic
+NameArray:0,Win,16,Bookk Gothic
+NameArray:3,Win,1,부크크 고딕 Bold
+NameArray:3,Win,16,부크크 고딕
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BookkGothic-Lt
+FamilyName:Bookk Gothic
+StyleName:Light
+FullName:Bookk Gothic Light
+MenuName:부크크 고딕 Light
+StyleBits:0
+FamilyNameNative:부크크 고딕
+StyleNameNative:Light
+FullNameNative:부크크 고딕 Light
+WritingScript:Korean
+OutlineFileName:C:\Users\kk98i\Desktop\INJUNG hospital\Font\book_light.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:2381204
+FileModTime:1701603408
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Bookk Gothic Light
+NameArray:3,Mac,4,부크크 고딕 Light
+NameArray:0,Win,1,Bookk Gothic
+NameArray:0,Win,16,Bookk Gothic
+NameArray:3,Win,1,부크크 고딕 Light
+NameArray:3,Win,16,부크크 고딕
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HealthsetGothicBold
+FamilyName:Healthset Gothic Bold
+StyleName:Regular
+FullName:Healthset Gothic Bold
+MenuName:헬스셋고딕 Bold
+StyleBits:0
+FamilyNameNative:헬스셋고딕 Bold
+StyleNameNative:Regular
+FullNameNative:헬스셋고딕 Bold
+WritingScript:Korean
+OutlineFileName:C:\Users\kk98i\Desktop\INJUNG hospital\Font\health_Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1119636
+FileModTime:1701602732
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Healthset Gothic Bold
+NameArray:3,Mac,4,헬스셋고딕 Bold
+NameArray:0,Win,1,Healthset Gothic Bold
+NameArray:3,Win,1,헬스셋고딕 Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HealthsetGothicLight
+FamilyName:Healthset Gothic Light
+StyleName:Regular
+FullName:Healthset Gothic Light
+MenuName:헬스셋고딕 Light
+StyleBits:0
+FamilyNameNative:헬스셋고딕 Light
+StyleNameNative:Regular
+FullNameNative:헬스셋고딕 Light
+WritingScript:Korean
+OutlineFileName:C:\Users\kk98i\Desktop\INJUNG hospital\Font\health_light.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1129288
+FileModTime:1701602732
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Healthset Gothic Light
+NameArray:3,Mac,4,헬스셋고딕 Light
+NameArray:0,Win,1,Healthset Gothic Light
+NameArray:3,Win,1,헬스셋고딕 Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:KartriderMedium
+FamilyName:Kartrider
+StyleName:Medium
+FullName:Kartrider Medium
+MenuName:넥슨 카트 고딕 Medium
+StyleBits:0
+FamilyNameNative:넥슨 카트 고딕
+StyleNameNative:Medium
+FullNameNative:넥슨 카트 고딕 Medium
+WritingScript:Korean
+OutlineFileName:C:\Users\kk98i\Desktop\INJUNG hospital\Font\nex_Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:5156168
+FileModTime:1701705044
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Kartrider Medium
+NameArray:0,Win,16,Kartrider
+NameArray:3,Win,1,넥슨 카트 고딕 Medium
+NameArray:3,Win,16,넥슨 카트 고딕
+%EndFont
+
